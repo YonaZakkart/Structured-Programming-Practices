@@ -1,4 +1,4 @@
-//a 
+//Practice 1 
 
 import readline from 'readline';
 

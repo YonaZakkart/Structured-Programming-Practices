@@ -10,7 +10,7 @@ rl.question("Ingresa un numero del 1 al 7: ", input => {
     let nombreDia;
 
     switch (dia) {
-        case 1: nombreDia = "Lunes"; break;
+        case 1: nombreDia = "Lunes"; break; // en mi defensa, me gusta lo minimalista
         case 2: nombreDia = "Martes"; break;
         case 3: nombreDia = "Miercoles"; break;
         case 4: nombreDia = "Jueves"; break;

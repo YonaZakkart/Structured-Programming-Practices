@@ -12,11 +12,11 @@ rl.question("Ingresa dos numeros separados por coma: ", entrada => {
         let resultado;
 
         switch (op) {
-            case "1": resultado = a + b; break;
+            case "1": resultado = a + b; break; //el punto es que funcione, la estetica es otra cosa
             case "2": resultado = a - b; break;
             case "3": resultado = a * b; break;
-            case "4": resultado = b !== 0 ? a / b : "no se puede dividir entre cero"; break;
-            default: resultado = "Operacion invalida.";
+            case "4": resultado = b !== 0 ? a / b : "no se puede dividir entre cero w"; break;
+            default: resultado = "Operacion invalida";
         }
 
         console.log("Resultado:", resultado);

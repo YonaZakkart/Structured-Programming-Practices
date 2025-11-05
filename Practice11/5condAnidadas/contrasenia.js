@@ -1,3 +1,8 @@
+// Implementa un programa que pida el nombre de usuario y contraseña. Si el usuario 
+// es "admin" y la contraseña es "1234", muestra "Acceso concedido". Si el usuario es 
+// correcto pero la contraseña incorrecta, pide la contraseña nuevamente (máximo 3 
+// intentos). Si el usuario es incorrecto, muestra "Usuario no encontrado".  
+
 import readline from "readline";
 
 const rl = readline.createInterface({

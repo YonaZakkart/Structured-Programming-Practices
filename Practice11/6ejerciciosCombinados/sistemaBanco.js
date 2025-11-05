@@ -1,3 +1,8 @@
+// Crea un programa que simule un sistema de autenticación bancaria. Solicita 
+// número de cuenta (4 dígitos), PIN (4 dígitos) y monto a retirar. Valida que la cuenta 
+// exista, el PIN sea correcto y haya saldo suficiente (saldo inicial: 1000). Usa 
+// condicionales anidadas y operadores lógicos.  
+
 import readline from "readline";
 
 const rl = readline.createInterface({
@@ -26,20 +31,16 @@ rl.question("Ingrese numero de cuenta (4 dígitos): ", cuenta => {
                     rl.close();
                 });
             } else {
-                console.log("PIN incorrecto, \nCambiar el pin? (se descontarán $5)"); // <- eso lo puso copi
+                console.log("PIN incorrecto, \nCambiar el pin? (se descontarán $5)");
                 rl.close();
             }
         });
     } else {
-        console.log("Cuenta no encontrada. revise bien"); // <- eso tambien
+        console.log("Cuenta no encontrada. revise bien");
         rl.close();
     }
 });
 
 
 //estuvo divertido hacer esto :D
-//pero ya me aburri XDD
-
-//byee
-
-//me da risa lo que copilot sugiere (los emojis)
+//p
